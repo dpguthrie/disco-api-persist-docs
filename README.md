@@ -1,4 +1,4 @@
-# DBT Column Description Inheritance
+# dbt Column Description Inheritance
 
 This tool solves a limitation in dbt's `persist_docs` functionality by persisting inherited column descriptions to BigQuery tables. While dbt's built-in `persist_docs` feature can persist manually written column descriptions, it doesn't handle descriptions that are inherited from upstream columns.
 
